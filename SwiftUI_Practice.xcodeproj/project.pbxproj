@@ -11,6 +11,8 @@
 		991BE0C226AECC86005B834E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991BE0C126AECC86005B834E /* ContentView.swift */; };
 		991BE0C426AECC87005B834E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991BE0C326AECC87005B834E /* Assets.xcassets */; };
 		991BE0C726AECC87005B834E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991BE0C626AECC87005B834E /* Preview Assets.xcassets */; };
+		991BE0CF26AED075005B834E /* MyVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991BE0CE26AED075005B834E /* MyVStackView.swift */; };
+		991BE0D126AED4F5005B834E /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991BE0D026AED4F5005B834E /* MyTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		991BE0C326AECC87005B834E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		991BE0C626AECC87005B834E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		991BE0C826AECC87005B834E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		991BE0CE26AED075005B834E /* MyVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVStackView.swift; sourceTree = "<group>"; };
+		991BE0D026AED4F5005B834E /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,8 @@
 		991BE0BE26AECC86005B834E /* SwiftUI_Practice */ = {
 			isa = PBXGroup;
 			children = (
-				991BE0BF26AECC86005B834E /* SwiftUI_PracticeApp.swift */,
-				991BE0C126AECC86005B834E /* ContentView.swift */,
+				991BE0D326AEDB78005B834E /* Binding Test */,
+				991BE0D226AEDB63005B834E /* Base */,
 				991BE0C326AECC87005B834E /* Assets.xcassets */,
 				991BE0C826AECC87005B834E /* Info.plist */,
 				991BE0C526AECC87005B834E /* Preview Content */,
@@ -67,6 +71,24 @@
 				991BE0C626AECC87005B834E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		991BE0D226AEDB63005B834E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				991BE0BF26AECC86005B834E /* SwiftUI_PracticeApp.swift */,
+				991BE0C126AECC86005B834E /* ContentView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		991BE0D326AEDB78005B834E /* Binding Test */ = {
+			isa = PBXGroup;
+			children = (
+				991BE0CE26AED075005B834E /* MyVStackView.swift */,
+				991BE0D026AED4F5005B834E /* MyTextView.swift */,
+			);
+			path = "Binding Test";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				991BE0C226AECC86005B834E /* ContentView.swift in Sources */,
+				991BE0D126AED4F5005B834E /* MyTextView.swift in Sources */,
 				991BE0C026AECC86005B834E /* SwiftUI_PracticeApp.swift in Sources */,
+				991BE0CF26AED075005B834E /* MyVStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
